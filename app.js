@@ -6,7 +6,9 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 global.appRoot = path.resolve(__dirname);
 var index = require('./routes/index');
+var open = require('open');
 
+open('http://localhost:3000'); 
 
 var app = express();
 
