@@ -5,7 +5,7 @@ block content
         div.row
             h1 Работаем
 
-            
+
 
             div
                 p n_grz: {{ current_xml.n_grz }}
@@ -20,3 +20,6 @@ block content
             div(class="col-md-12" style="text-align: center; padding-top: 15px")
                 button(class="btn btn-success" ng-click="process('y',current)") ДА
                 button(class="btn btn-warning" ng-click="process('n',current)") НЕТ
+
+            div(class="col-md-12" style="text-align: center; padding-top: 15px" ng-show="is_end")
+                button(class="btn btn-success" ng-click="reread()") Пересчитать                

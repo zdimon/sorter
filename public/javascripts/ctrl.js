@@ -23,6 +23,15 @@ app.controller('sortCtrl',['$scope', 'Model', function($scope, Model){
    };
 
 
+   $scope.reread = function(){
+       Model.get_file_list(function(rezult){
+          $scope.current = 1;
+          $scope.file_list = rezult.data;
+          $scope.current_xml = parsexml(rezult.data[$scope.current].content);
+          console.log($scope.current_xml);
+       });
+   };
+
    $scope.process = function(act,id){
 
 
@@ -30,6 +39,10 @@ app.controller('sortCtrl',['$scope', 'Model', function($scope, Model){
        Model.move(act,id,function(rezult){
 
           $scope.current = $scope.current+1;
+          console.log($scope.file_list['count']);
+          if($scope.file_list['count']<$scope.current){
+              $scope.is_end = true;
+          }
           $scope.current_xml = parsexml($scope.file_list[$scope.current].content);
        });
 

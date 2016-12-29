@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-function getFileList(){
+function getFileList(callback){
 
     var testFolder = global.appRoot+'/public/source';
     var fileslist = []
@@ -36,21 +36,26 @@ function getFileList(){
                 };
                 xmls[i] = {xml: fileslist[file], content: content, pic: pics};
             };
-
+            xmls['count'] = i; 
         };
 
         global.file_list = xmls;
-
+        callback();
     });
 
 };
 
-getFileList();
+
 
 
 router.get('/get_file_list', function(req, res, next) {
-  res.send(global.file_list);
+  getFileList(function(){
+      res.send(global.file_list);
+  });
+
 });
+
+
 
 
 router.get('/move/:act/:id', function(req, res, next) {
@@ -84,7 +89,7 @@ function moveFile(name,act){
        fs.unlinkSync(souce);
     });
 
-        
+
 
 };
 
