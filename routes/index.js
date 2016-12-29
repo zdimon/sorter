@@ -78,9 +78,13 @@ function moveFile(name,act){
     var is = fs.createReadStream(souce)
     var os = fs.createWriteStream(dest);
 
-        util.pump(is, os, function() {
-            fs.unlinkSync(souce);
-        });
+    is.pipe(os);
+
+    is.on("end", function() {
+       fs.unlinkSync(souce);
+    });
+
+        
 
 };
 
