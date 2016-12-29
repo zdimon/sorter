@@ -29,6 +29,7 @@ app.controller('sortCtrl',['$scope', 'Model', function($scope, Model){
           $scope.file_list = rezult.data;
           $scope.current_xml = parsexml(rezult.data[$scope.current].content);
           console.log($scope.current_xml);
+          delete $scope.is_end;
        });
    };
 
