@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<violations>
+  <violation>
+    <n_grz>В959КН134</n_grz>
+    <n_date>17.12.2016</n_date>
+    <n_time>08:45:16</n_time>
+    <n_svpdate>23.12.2016</n_svpdate>
+    <n_place>
+      <region_code>50</region_code>
+      <region_name>Московская область</region_name>
+      <road_num_name>М-7 «Волга»</road_num_name>
+      <km_num>80</km_num>
+      <m_num>243</m_num>
+      <azimut>2</azimut>
+      <coordinates>
+        <lat>55.851666</lat>
+        <lon>38.848055</lon>
+      </coordinates>
+    </n_place>
+    <n_device>
+      <id_ssk_smk>000000017</id_ssk_smk>
+      <type_ssk_smk>АПК фото видео фиксации Платон</type_ssk_smk>
+      <doc_ssk_smk>HU.C.27.002.A №60206</doc_ssk_smk>
+      <end_date_ssk_smk>23.10.2020</end_date_ssk_smk>
+      <type_text_ssk_smk>Камера которая позволяет осуществлять автоматическое распознавания ГРЗ</type_text_ssk_smk>
+      <check_ssk_smk></check_ssk_smk>
+      <check_doc>
+        <check_doc_ssk_smk>8-841-11029-15</check_doc_ssk_smk>
+        <check_doc_issue_date_ssk_smk>06.11.2015</check_doc_issue_date_ssk_smk>
+        <check_doc_end_date_ssk_smk>06.11.2017</check_doc_end_date_ssk_smk>
+      </check_doc>
+    </n_device>
+    <n_violat>12.21.3</n_violat>
+    <n_number>11007516</n_number>
+    <photos>
+      <photo_front>ssk/2016/12/17/05/45/643dfa517b4d4bf0a6efa4a8b790c22d</photo_front>
+      <photo_grnz>ssk/2016/12/17/05/45/e719d92820394d77b18718f644de8247</photo_grnz>
+      <photo_grnz_num>ssk/2016/12/17/05/45/f49b017d7edf4fd49fad10108d604b51</photo_grnz_num>
+    </photos>
+  </violation>
+</violations>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<violations>
+  <violation>
+    <n_grz>Е127ТУ35</n_grz>
+    <n_date>17.12.2016</n_date>
+    <n_time>12:37:04</n_time>
+    <n_svpdate>23.12.2016</n_svpdate>
+    <n_place>
+      <region_code>50</region_code>
+      <region_name>Московская область</region_name>
+      <road_num_name>А-107 ММК «Дмитровско-Ярославское шоссе»</road_num_name>
+      <km_num>28</km_num>
+      <m_num>62</m_num>
+      <azimut>1</azimut>
+      <coordinates>
+        <lat>56.120277</lat>
+        <lon>37.935277</lon>
+      </coordinates>
+    </n_place>
+    <n_device>
+      <id_ssk_smk>000000025</id_ssk_smk>
+      <type_ssk_smk>АПК фото видео фиксации Платон</type_ssk_smk>
+      <doc_ssk_smk>HU.C.27.002.A №60206</doc_ssk_smk>
+      <end_date_ssk_smk>23.10.2020</end_date_ssk_smk>
+      <type_text_ssk_smk>Камера которая позволяет осуществлять автоматическое распознавания ГРЗ</type_text_ssk_smk>
+      <check_ssk_smk></check_ssk_smk>
+      <check_doc>
+        <check_doc_ssk_smk>8-841-11036-15</check_doc_ssk_smk>
+        <check_doc_issue_date_ssk_smk>09.11.2015</check_doc_issue_date_ssk_smk>
+        <check_doc_end_date_ssk_smk>09.11.2017</check_doc_end_date_ssk_smk>
+      </check_doc>
+    </n_device>
+    <n_violat>12.21.3</n_violat>
+    <n_number>11027808</n_number>
+    <photos>
+      <photo_front>ssk/2016/12/17/09/30/20e51521526343b28b085e13b7132818</photo_front>
+      <photo_grnz>ssk/2016/12/17/09/30/abc79c03fa9840eb9cd38913d96991ca</photo_grnz>
+      <photo_grnz_num>ssk/2016/12/17/09/30/7410024f97b44b0c8e6abc07380addfb</photo_grnz_num>
+    </photos>
+  </violation>
+</violations>
