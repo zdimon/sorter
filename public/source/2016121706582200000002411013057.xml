@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<violations>
+  <violation>
+    <n_grz>М727СУ72</n_grz>
+    <n_date>17.12.2016</n_date>
+    <n_time>09:58:22</n_time>
+    <n_svpdate>23.12.2016</n_svpdate>
+    <n_place>
+      <region_code>50</region_code>
+      <region_name>Московская область</region_name>
+      <road_num_name>М-10 «Россия»</road_num_name>
+      <km_num>96</km_num>
+      <m_num>690</m_num>
+      <azimut>1</azimut>
+      <coordinates>
+        <lat>56.4080555</lat>
+        <lon>36.6455555</lon>
+      </coordinates>
+    </n_place>
+    <n_device>
+      <id_ssk_smk>000000024</id_ssk_smk>
+      <type_ssk_smk>АПК фото видео фиксации Платон</type_ssk_smk>
+      <doc_ssk_smk>HU.C.27.002.A №60206</doc_ssk_smk>
+      <end_date_ssk_smk>23.10.2020</end_date_ssk_smk>
+      <type_text_ssk_smk>Камера которая позволяет осуществлять автоматическое распознавания ГРЗ</type_text_ssk_smk>
+      <check_ssk_smk></check_ssk_smk>
+      <check_doc>
+        <check_doc_ssk_smk>8-841-11035-15</check_doc_ssk_smk>
+        <check_doc_issue_date_ssk_smk>09.11.2015</check_doc_issue_date_ssk_smk>
+        <check_doc_end_date_ssk_smk>09.11.2017</check_doc_end_date_ssk_smk>
+      </check_doc>
+    </n_device>
+    <n_violat>12.21.3</n_violat>
+    <n_number>11013057</n_number>
+    <photos>
+      <photo_front>ssk/2016/12/17/06/45/8233eac5981a4ac4b4b9e95c8c943b97</photo_front>
+      <photo_grnz>ssk/2016/12/17/06/45/95f107a9e0444ff6b9ee29aa55ecd7d4</photo_grnz>
+      <photo_grnz_num>ssk/2016/12/17/06/45/afe2937c60ef437c86b516b7a1d17fe6</photo_grnz_num>
+    </photos>
+  </violation>
+</violations>

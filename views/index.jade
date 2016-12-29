@@ -1,0 +1,22 @@
+extends layout
+
+block content
+    div(ng-controller="sortCtrl")
+        div.row
+            h1 Работаем
+
+            
+
+            div
+                p n_grz: {{ current_xml.n_grz }}
+                p n_date: {{ current_xml.n_date }}
+                p n_time: {{ current_xml.n_time }}
+                p photo_front: {{ current_xml.photo_front }}
+                p photo_grnz: {{ current_xml.photo_grnz }}
+                p photo_grnz_num: {{ current_xml.photo_grnz_num }}
+
+            div(class="col-md-4" ng-repeat="i in file_list[current]['pic']")
+                img(ng-src="source/{{i}}" class="img-responsive")
+            div(class="col-md-12" style="text-align: center; padding-top: 15px")
+                button(class="btn btn-success" ng-click="process('y',current)") ДА
+                button(class="btn btn-warning" ng-click="process('n',current)") НЕТ
